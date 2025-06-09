@@ -230,8 +230,10 @@ fieldset:hover {
 
 .grid-box a {
     display: flex;
+    text-decoration: none;
+    color: #e7e7e7;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     transition: 0.3s;
 }
 
