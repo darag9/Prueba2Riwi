@@ -1,9 +1,13 @@
+/* General */
+
 * {
     margin: 0;
     padding: 0;
     font-family: Montserrat;
     scroll-behavior: smooth;
 }
+
+/* Header section */
 
 .navbar {
     display: flex;
@@ -12,6 +16,11 @@
     justify-content: space-between;
     padding: 2rem;
     background-color: #e7e7e7;
+}
+
+span {
+    background-color: rgb(255, 115, 0);
+    color: white;
 }
 
 nav {
@@ -31,14 +40,18 @@ nav a {
     transition: 0.3s;
 }
 
-a:hover {
+nav a:hover {
     transform:
         rotate(0deg) translateY(-15%);
-        background-color: black;
+        background-image: url(images/texture-dark-wave-metallic-background-600nw-1595487478.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         color: #e7e7e7;
     opacity: 1;
 
 }
+
+/* Main background image */
 
 .background-image-container {
     background-image: url(images/jpeg);
@@ -61,6 +74,8 @@ a:hover {
     color: #e7e7e7;
     animation: text-animation infinite 10s alternate;
 }
+
+/* Infinite text animation */
 
 @keyframes text-animation {
     from {
@@ -87,6 +102,10 @@ a:hover {
     }
 }
 
+/* Main Page */
+
+/* About me section */
+
 #About-me{
     padding: 1rem;
     background-color: #e7e7e7;
@@ -98,12 +117,14 @@ a:hover {
     flex-direction: column;
 }
 
-#Proyects{
+/* Projects section */
+
+#Projects{
     padding: 1rem;
     background-color: #e7e7e7;
 }
 
-#Proyects h2{
+#Projects h2{
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
@@ -148,6 +169,8 @@ th:hover {
     opacity: 1;
 }
 
+/* Contact me section */
+
 #Contact-me {
     padding: 1rem;
     background-color: #e7e7e7;
@@ -183,6 +206,8 @@ fieldset:hover {
         rotate(0deg) translateY(-10%);
 }
 
+/* Socials section */
+
 #Socials {
     padding: 1rem;
     background-image: url(images/2340125.png);
@@ -194,6 +219,7 @@ fieldset:hover {
 #Socials h2 {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .grid-box {
@@ -206,12 +232,22 @@ fieldset:hover {
     display: flex;
     width: 100%;
     justify-content: center;
+    transition: 0.3s;
 }
 
 .images-container {
     width: 50px;
     height: 50px;
 }
+
+.grid-box a:hover {
+    transform:
+        rotate(0deg) translateY(-10%);
+        color: #e7e7e7;
+    opacity: 1;
+}
+
+/* Responsive section */
 
 @media screen and (max-width: 758px) {
     .background-image-container h2 {

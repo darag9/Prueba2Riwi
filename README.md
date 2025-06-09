@@ -28,5 +28,17 @@
 
 ### 2. Proyects
 
-- 
+- This sections show the projects I've made so far in Riwi, shown in a table with the projects name, the language used and the Link to the github repository.
+
+### 3. Contact me 
+
+- The conact me section is made on a form which has a fieldset including the name, and the input waiting to receive the email and the message respectively.
+
+## Footer
+
+- The footer contains the last section *Socials* which has an image that redirects to the website the user wants to contact me.
+
+# 2. CSS
+
+- CSS explained in the style.css archive :3!
 
