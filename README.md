@@ -22,11 +22,11 @@
 
 - The main page is divided by 3 sections, About me, Proyects and Contact me, each one of them having their own id.
 
-## 1. About me
+### 1. About me
 
 - This sections talks about me, how old I am, what are my favourite things to do, and how much I love to code.
 
-## 2. Proyects
+### 2. Proyects
 
 - 
 
