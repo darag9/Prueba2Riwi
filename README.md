@@ -42,3 +42,5 @@
 
 - CSS explained in the style.css archive :3!
 
+### Daniel Ramirez Agudelo
+### Clan: Gosling
